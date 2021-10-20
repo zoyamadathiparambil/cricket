@@ -1,0 +1,58 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-image: url('./background-image.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+}
+
+#home{
+    margin-left: 410px;
+    z-index: 1;
+    text-align: center;
+}
+
+h1{
+    font-size: 50px;
+    text-transform: uppercase;
+    margin-top: 40px;
+}
+
+h3{
+    color: gray;
+    margin-bottom: 20px;
+    margin-left: 30px;
+}
+
+table{
+    border-collapse: collapse;
+    border-right:2px solid grey ;
+    border-left: 2px solid gray;
+    margin-left: 30px;
+}
+
+td{
+    padding: 15px;
+    border-bottom: 2px solid grey;
+    font-weight: 600;
+}
+
+.heading td{
+    background-color: red;
+    color: white;
+    font-weight: 600;
+}
+
+.strike-rate{
+    text-align: center;
+    font-weight: 600;
+}
+
+.dismissals{
+    color: rgb(94, 86, 86);
+    font-weight: 600;
+}
